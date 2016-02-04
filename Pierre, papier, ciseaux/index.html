@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=0.4, maximum-scale=0.4" />
+	<title>Pierre, papier, ciseaux</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+  
+<body>
+
+	<div class="main-body">
+		<h1>Pierre, Papier, Ciseaux</h1>
+		<div class="p-r-s">
+ 
+<!--Entrée choix--> 
+			<div class="choix">
+				<h3>Faites votre choix !</h3>
+
+				<ul class="choices">
+					<li>
+						<a onclick="compare('rock', computerChoice)">
+							<img src="img/pierre.png" width="50px" />
+						</a>
+					</li>
+					
+					<li>
+						<a onclick="compare('paper', computerChoice)">
+							<img src="img/feuille.png" width="50px" />
+						</a>	
+					</li>
+					
+					<li>
+						<a onclick="compare('scissors', computerChoice)">
+							<img src="img/ciseaux.png" width="50px" />
+						</a>
+					</li>
+				</ul>
+			</div>
+
+<!--Id choix--> 	
+			<div class="idChoix">
+				<h3>Choix des joueurs :</h3>
+			
+				<ul class="decider">
+					<li>
+						<span>One punch man:</span>
+						<span id="playerChoice">En attente de sélection</span>	
+			 		</li>
+					
+			 		<li>
+						<span>Computer-man:</span>
+						<span id="computerChoice">Les dames d'abord !</span>			 			
+			 		</li>
+		 		</ul>
+	 		</div>
+						
+<!--Scores-->
+			<div class="scores">
+				<h3>Scores</h3>
+				
+				<div class="scores">
+					<div class="score-box">
+						<div id="playerScore"></div>
+						<span>Vous</span>
+					</div>
+			 			
+					<div class="score-box">
+						<div id="computerScore"></div>
+						<span>Evil Computer-man</span>
+					</div>
+		 		</div>
+		 	</div>
+	 	
+		</div>
+	</div>
+	
+<!--Résultats-->
+	<div id="yourResult"></div>
+	<div id="compResult"></div>
+	
+<!-- Bouton replay -->
+	<div class="container-fluid">
+		<div class="row__replay">
+			<input id="replay" type="button" value="Remise à zero" />
+		</div>
+	</div>
+  
+	<script src="js/script.js"></script>
+</body>
+
+</html>

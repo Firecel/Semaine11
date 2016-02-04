@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=0.4, maximum-scale=0.4" />
+	<title>More or less</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+  
+<body>
+	<div class="bg">
+		<img src="img/dice.png"/>
+	</div>
+
+<!-- Entrée formulaire -->
+	<div class="container-fluid">
+		<div class="row__nombre">
+			<form>
+				<p>
+					<label for="nb">Votre nombre : </label>
+					</br>
+					<input id="nb" type="nombre" name="nb" placeholder="Ex : 55"/></br>
+					</br>
+					<input id="clickme" type="button" value="Valider" />
+				</p>
+			</form>
+		</div>
+	</div>
+
+<!-- Résultat -->	
+	<div class="container-fluid">
+		<div class="row__resultat">
+			<p id="resultat">=></p>
+		</div>
+	</div>
+
+<!-- Bouton replay -->
+	<div class="container-fluid">
+		<div class="row__replay">
+			<input id="replay" type="button" value="Rejouer" />
+		</div>
+	</div>
+  
+	<script src="js/script.js"></script>
+</body>
+
+</html>

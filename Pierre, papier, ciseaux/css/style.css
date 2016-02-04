@@ -1,0 +1,109 @@
+body,div,dl,dt,dd,ul,ol,li,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+fieldset,img {
+	border: 0;
+}
+
+address,caption,cite,code,dfn,th,var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+ol,ul {
+	list-style: none;
+}
+
+caption,th {
+	text-align: left;
+}
+
+q:before,q:after {
+	content: '';
+}
+
+abbr,acronym {
+	border: 0;
+}
+
+h1 {
+	margin-bottom: 100px;
+}
+.idChoix {
+	margin-top: 50px;
+}
+
+.main-body {
+	margin: 2em auto 0;
+	max-width: 700px; 
+	padding: 10px;
+}
+
+.p-r-s h3 {
+	font-size: 1.1em
+}
+
+.p-r-s .choices {
+	text-align: center
+}
+
+.p-r-s .choices li {
+	display: inline-block;
+	width: 25%
+}
+
+.p-r-s .scores {
+	border-bottom: 5px solid #2a2829;
+	border-top: 5px solid #2a2829;
+	text-align: center
+}
+
+.p-r-s .scores .score-box {
+	display: inline-block;
+	padding: 5px 10px;
+	text-align: center;
+	width: 40%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+.p-r-s .decider li {
+	border: 5px solid #2a2829;
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+.p-r-s .decider li:first-child {
+	margin-bottom: 10px
+}
+
+.p-r-s .decider li span {
+	margin-right: 20px
+}
+
+.p-r-s #computerScore,.p-r-s #playerScore {
+	font-size: 3em
+}
+
+.p-r-s #playerChoice,.p-r-s #computerChoice {
+	font-weight: 700;
+	text-transform: uppercase
+}
+
+.row__replay {
+	Margin-top: 50px;
+	text-align: center;
+}
